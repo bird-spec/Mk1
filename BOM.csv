@@ -1,0 +1,11 @@
+Ref,Qty,Part,Purpose,Supplier,Part Number,Unit Price,Notes
+U1,1,Seeed XIAO ESP32S3 Sense,"MCU + camera + PSRAM; runs mapping and WiFi telemetry",,,,"D5 pad is dead on this unit - do not use"
+U2,1,MPU6050 (GY-521),"3-axis gyro + accel; heading integration",,,,"I2C 0x68. Needs bias calibration at boot"
+U3,2,VL53L0X ToF breakout,"Ranging - front and down",,,,"All boot at 0x29; XSHUT sequencing re-addresses them"
+U4,2,DRV8833 dual H-bridge,"Motor drive, 2 motors per board",,,,"1.5A continuous / 2A peak. IN2/IN4 must be grounded"
+M1-M4,4,8520 coreless brushed motor,"Lift",,,,"Adjacent CW/CCW, diagonals matched"
+,1,100mm brushed quad frame,"Airframe",,,,
+,4,Propeller (65mm),"Thrust",,,,"Grommets needed for shaft fit"
+BT1,1,1S LiPo 3.7V,"Power",,,,"Do not discharge below 3.3V. Feed BAT pads, not 5V pin"
+,1,JST-PH connector pair,"Battery connection",,,,
+,1,Jumper wire set,"Prototype wiring",,,,"Replaced by the PCB in the next revision"

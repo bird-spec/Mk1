@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.bak-*
+
+# never commit real credentials
+firmware/secrets.h
