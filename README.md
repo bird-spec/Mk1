@@ -15,14 +15,9 @@ the drone works by 3 crucial components the gyroscope which gives a number the a
 the tof require separate xhut pins so both of them show different reading which i confused first and the main THE ABSOLUTE GOAT the ESP 32 S3 has inbuilt BLE WIFI over 8mb psram all under 2grams!!!
 
 
-See [docs/WIRING.md](docs/WIRING.md).
+ [docs/WIRING.md](docs/WIRING.md).
 ![wiring](docs/photos/wiring.jpeg)
 
-
-firmware/drone_slam.ino    main - sensors, heading, occupancy grid, UDP telemetry 
-firmware/imu_bringup.ino   MPU6050 bring-up with a full I2C bus scan 
-firmware/tof_bringup.ino   re-addresses all four ToF sensors off 0x29 
-firmware/cam_diag.ino      camera fault diagnosis 
 
 
 
