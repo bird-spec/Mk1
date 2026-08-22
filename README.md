@@ -1,24 +1,18 @@
 # <name it>
 
-<!-- ONE SENTENCE. What is it, said out loud to a friend. -->
+my pet phantom
 
 ![assembled](docs/photos/assembled.jpeg)
 
 ## What it does
-<!-- What does the drone actually do right now? Be honest about what works and
-     what doesn't. "Four motors spin, sensors map, it does not fly yet" is a
-     better opening than implying it flies. -->
+so for now the drone only hovers but with funding im planning to add the phantom capability which basically makes the rear motors turn 90 degrees back acting as pure thruster while the front do the heavy lifting and can cruise at 35mph and 46mph short bursts
 
 ## Why I built it
-<!-- You have a real answer to this one. Use it. -->
+i used to have a bird when i was a kid called mango but after a year it died so the reason im making this is so this time i create a sarcastic pet that when destroyed i can just upload its consiousnesss to another body
 
 ## How it works
-<!-- Three or four short paragraphs. Prompts:
-     - the map is log-odds, not true/false. Why does that matter when a real
-       VL53L0X returns garbage off a dark surface?
-     - one beam plus rotation IS a multi-beam scan spread over time
-     - what does the gyro bias calibration at boot fix? What happens without it?
-     - why does every VL53L0X need XSHUT sequencing at every boot? -->
+the drone works by 3 crucial components the gyroscope which gives a number the ai has to calculate so it can correct itself mid air 100 times a second the TOF sensors which show the distance and stuff if possible with funding the steval vl53l9 lidar and the battery ofcourse
+the tof require separate xhut pins so both of them show different reading which i confused first and the main THE ABSOLUTE GOAT the ESP 32 S3 has inbuilt BLE WIFI over 8mb psram all under 2grams!!!
 
 ## Wiring
 See [docs/WIRING.md](docs/WIRING.md).
