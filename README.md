@@ -19,12 +19,10 @@ See [docs/WIRING.md](docs/WIRING.md).
 ![wiring](docs/photos/wiring.jpeg)
 
 
-| file | what it does |
-|---|---|
-| `firmware/drone_slam.ino` | main - sensors, heading, occupancy grid, UDP telemetry |
-| `firmware/imu_bringup.ino` | MPU6050 bring-up with a full I2C bus scan |
-| `firmware/tof_bringup.ino` | re-addresses all four ToF sensors off 0x29 |
-| `firmware/cam_diag.ino` | camera fault diagnosis |
+firmware/drone_slam.ino    main - sensors, heading, occupancy grid, UDP telemetry 
+firmware/imu_bringup.ino   MPU6050 bring-up with a full I2C bus scan 
+firmware/tof_bringup.ino   re-addresses all four ToF sensors off 0x29 
+firmware/cam_diag.ino      camera fault diagnosis 
 
 
 
@@ -33,9 +31,5 @@ See [docs/WIRING.md](docs/WIRING.md).
  [BOM.csv](BOM.csv).
 
 
-      four solder joints that held mechanically and conducted nothing
-      motors that only crackled - IN2/IN4 floating on the second driver
-      the gyro reading zeros because of a bridge to the metal shield
-      cutting the header pins with craft scissors
 
 i still got like 3 more joints until it flies and tbh im just being lazy 
