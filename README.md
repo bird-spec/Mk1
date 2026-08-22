@@ -1,8 +1,8 @@
-# <name it>
+# 
 
 my pet phantom
 
-![assembled](docs/photos/assembled.jpeg)
+(docs/photos/assembled.jpeg)
 
 ## What it does
 so for now the drone only hovers but with funding im planning to add the phantom capability which basically makes the rear motors turn 90 degrees back acting as pure thruster while the front do the heavy lifting and can cruise at 35mph and 46mph short bursts
