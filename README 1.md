@@ -39,11 +39,11 @@ See [docs/WIRING.md](docs/WIRING.md).
 See [BOM.csv](BOM.csv).
 
 ## What I got wrong
-<!-- The best section. You have plenty:
+.
      - four solder joints that held mechanically and conducted nothing
      - motors that only crackled - IN2/IN4 floating on the second driver
      - the gyro reading zeros because of a bridge to the metal shield
-     - cutting the header pins with craft scissors -->
+     - cutting the header pins with craft scissors
 
 ## Status / next
-<!-- Honest. What's left before it flies? -->
+i still got like 3 more joints until it flies and tbh im just being lazy 
